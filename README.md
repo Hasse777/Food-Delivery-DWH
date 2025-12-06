@@ -53,7 +53,7 @@ DAG-и выполняют:
 
 **Пример данных:**
 
-![dm_courier_ledger](img/cdm.dm_courier_ledger.png)
+![dm_courier_ledger](dags/img/cdm.dm_courier_ledger.png)
 
 ---
 
@@ -74,7 +74,7 @@ DAG-и выполняют:
 
 **Пример данных:**
 
-![dm_settlement_report](img/cdm.dm_settlement_report.png)
+![dm_settlement_report](dags/img/cdm.dm_settlement_report.png)
 
 ---
 
@@ -100,13 +100,13 @@ DAG-и выполняют:
 ## 🖼 Визуализация
 
 **DWH архитектура (слои STG/DDS/CDM)**  
-![DWH](img/cdm_schema.png)
+![DWH](dags/img/cdm_schema.png)
 
 **STG модель (сырые данные API)**  
-![STG](img/stg_schema.png)
+![STG](dags/img/stg_schema.png)
 
 **DDS модель (нормализованные сущности)**  
-![DDS](img/dds_schema.png)
+![DDS](dags/img/dds_schema.png)
 
 **Airflow граф пайплайна**  
-![Airflow](img/airflow_tasks.png)
+![Airflow](dags/img/airflow_tasks.png)
